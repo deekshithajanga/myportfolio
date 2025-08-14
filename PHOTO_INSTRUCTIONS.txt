@@ -1,0 +1,17 @@
+PROFILE PHOTO INSTRUCTIONS
+==========================
+
+To add your actual profile photo:
+
+1. Save your photo as "profile-photo.jpg" in the "public" folder
+2. Replace the current "profile-photo.svg" file
+3. Update the Hero.js file to use "profile-photo.jpg" instead of "profile-photo.svg"
+
+Your photo should be:
+- High quality (500x500 pixels or larger)
+- Professional looking
+- Good lighting
+- Centered on your face
+- JPG, PNG, or WebP format
+
+The photo will automatically be cropped to a circle in the Hero section.

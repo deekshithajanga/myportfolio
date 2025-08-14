@@ -63,39 +63,39 @@ const About = () => {
               projects, or collaborating with fellow developers on exciting projects.
             </p>
           </motion.div>
-
-          <motion.div
-            className="about-education"
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-          >
-            <h3>Education Timeline</h3>
-            <div className="timeline">
-              {education.map((edu, index) => (
-                <motion.div
-                  key={index}
-                  className="timeline-item"
-                  initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.6, delay: index * 0.2 }}
-                >
-                  <div className="timeline-marker">
-                    <FaGraduationCap />
-                  </div>
-                  <div className="timeline-content">
-                    <div className="timeline-period">{edu.period}</div>
-                    <h4>{edu.degree}</h4>
-                    <p className="timeline-institution">{edu.institution}</p>
-                    <p className="timeline-details">{edu.details}</p>
-                  </div>
-                </motion.div>
-              ))}
-            </div>
-          </motion.div>
         </div>
+
+        <motion.div
+          className="education-section"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, delay: 0.4 }}
+        >
+          <h3>Education Timeline</h3>
+          <div className="timeline">
+            {education.map((edu, index) => (
+              <motion.div
+                key={index}
+                className="timeline-item"
+                initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: index * 0.2 }}
+              >
+                <div className="timeline-marker">
+                  <FaGraduationCap />
+                </div>
+                <div className="timeline-content">
+                  <div className="timeline-period">{edu.period}</div>
+                  <h4>{edu.degree}</h4>
+                  <p className="timeline-institution">{edu.institution}</p>
+                  <p className="timeline-details">{edu.details}</p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
       </div>
     </section>
   );

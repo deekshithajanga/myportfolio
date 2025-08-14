@@ -5,20 +5,26 @@
 
 .about-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 4rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .about-text h3 {
   color: var(--primary-color);
   margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 2rem;
 }
 
 .about-text p {
   margin-bottom: 1.5rem;
   line-height: 1.7;
   color: var(--text-secondary);
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about-details h3 {
@@ -86,10 +92,15 @@
   color: var(--secondary-color);
 }
 
+.education-section {
+  margin-top: 2rem;
+}
+
 .education-section h3 {
   color: var(--primary-color);
   margin-bottom: 2rem;
   text-align: center;
+  font-size: 2rem;
 }
 
 .timeline {
@@ -146,6 +157,7 @@
   box-shadow: var(--shadow-sm);
   margin: 0 2rem;
   transition: var(--transition);
+  text-align: center;
 }
 
 .timeline-content:hover {

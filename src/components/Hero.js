@@ -67,7 +67,7 @@ const Hero = () => {
             <div className="profile-placeholder">
               <div className="profile-image">
                 <img 
-                  src="/profile-photo.jpg" 
+                  src="./profile-photo.jpg.png" 
                   alt="Deekshitha Janga" 
                   className="profile-photo"
                 />
