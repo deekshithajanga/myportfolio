@@ -26,7 +26,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              Hi, I'm <span className="highlight">DEEKSHITHA JANGA</span>
+              Hi, I'm <span className="highlight">DEEKSHITHA REDDY</span>
             </motion.h1>
             
             <motion.h2

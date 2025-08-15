@@ -39,7 +39,7 @@ const Navbar = () => {
           className="navbar-brand"
           whileHover={{ scale: 1.05 }}
         >
-          <a href="#home">DEEKSHITHA JANGA</a>
+          <a href="#home">JANGA DEEKSHITHA REDDY</a>
         </motion.div>
 
         <div className={`navbar-menu ${isOpen ? 'active' : ''}`}>

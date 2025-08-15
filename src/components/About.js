@@ -6,19 +6,19 @@ import './About.css';
 const About = () => {
   const education = [
     {
-      period: '2021 - 2025',
+      period: '2023 - 2027',
       degree: 'BTech - Computer Science',
       institution: 'Keshav Memorial Institute of Technology',
       details: 'GPA: 8.56'
     },
     {
-      period: '2019 - 2021',
+      period: '2021 - 2023',
       degree: 'Intermediate',
       institution: 'Sri Chaitanya Junior Kalasala',
       details: 'Percentage: 97.6%'
     },
     {
-      period: '2018 - 2019',
+      period: '2020 - 2021',
       degree: 'SSC (High School)',
       institution: 'Sri Chaitanya High School',
       details: 'GPA: 10.0'
